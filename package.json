@@ -1,0 +1,31 @@
+{
+  "name": "fdm-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "@unocss/vite": "^0.45.30",
+    "@vueuse/core": "^10.4.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@iconify-json/ic": "1.1.4",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "postcss": "^8.4.29",
+    "postcss-prefix-selector": "^1.16.0",
+    "typescript": "^5.2.2",
+    "unocss": "0.45.6",
+    "vite": "^4.4.9",
+    "vitepress": "1.0.0-alpha.31",
+    "vitest": "0.21.1",
+    "vue-tsc": "^1.8.11"
+  }
+}
